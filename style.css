@@ -1,4 +1,4 @@
-/* === GLOBAL STYLES === */
+/* global */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -26,7 +26,7 @@ h2 {
   font-size: 1.8rem;
 }
 
-/* === FORM STYLES === */
+/* form  */
 .input-section,
 #searchBook {
   background: white;
@@ -74,7 +74,7 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* === BOOK LIST STYLES === */
+/* book list */
 #incompleteBookList,
 #completeBookList {
   display: grid;
@@ -101,7 +101,15 @@ button:hover {
   color: #7f8c8d;
 }
 
-/* Responsive Design */
+/* footer */
+footer {
+  padding: 15px;
+  text-align: center;
+  margin-top: 30px;
+  color: #7f8c8d;
+}
+
+/* responsive */
 @media (max-width: 600px) {
   body {
     padding: 10px;
